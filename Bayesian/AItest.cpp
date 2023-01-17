@@ -12,7 +12,8 @@ int main()
 	string str;
 	ifstream read("cat.txt");
 
-	while(getline (read,str)){
+	while(getline (read,str))
+    {
 		test.push_back(str);
 	}
 	read.close();
@@ -21,7 +22,8 @@ int main()
 		cout<<test[i]<<"\n";
 	}*/
 	FILE *fptr;
-	if ((fptr = fopen("likelihood.txt", "r")) == NULL) {
+	if ((fptr = fopen("likelihood.txt", "r")) == NULL)
+    {
         printf("Error! opening file");
         exit(1);
     }
@@ -54,6 +56,7 @@ int main()
         }
         mapc.push_back(s4);
 	}
+
 	for(int i=0;i<test.size();i++){
         for(int j=0;j<feature.size();j++){
             if(test[i]==feature[j])
@@ -72,9 +75,11 @@ int main()
         }
         if(m1>m2){
             cout<<test[i]<<"\t--> "<<"dog"<<"\n";
-        }else{
+        }
+        else{
             cout<<test[i]<<"\t--> "<<"cat"<<"\n";
         }
 	}
 
+    return 0;
 }
