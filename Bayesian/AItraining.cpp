@@ -137,6 +137,7 @@ int main() {
 
     //cout<<priorC<<" "<<priorD<<"\n\n\n";
 
+
     string myText;
     ifstream readFile("likelihood.txt");
 
@@ -144,6 +145,7 @@ int main() {
         cout << myText<<"\n";
     }
     readFile.close();
+
 
     return 0;
 }
