@@ -1,9 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include<string.h>
-#include<vector>
 #include<bits/stdc++.h>
-#include<iostream>
 using namespace std ;
 
 vector<string>avalue ; //attribute value
