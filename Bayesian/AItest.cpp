@@ -54,6 +54,7 @@ int main()
         }
         mapc.push_back(s4);
 	}
+
 	for(int i=0;i<test.size();i++){
         for(int j=0;j<feature.size();j++){
             if(test[i]==feature[j])
@@ -76,5 +77,7 @@ int main()
             cout<<test[i]<<"\t--> "<<"cat"<<"\n";
         }
 	}
+
+	return 0;
 
 }
