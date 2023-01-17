@@ -58,27 +58,27 @@ int main()
 	}
 
 	for(int i=0;i<test.size();i++){
-        for(int j=0;j<feature.size();j++){
-            if(test[i]==feature[j])
-            {
-                if(cls[j]=="dog")
-                {
-                    c1 = cls[j];
-                    m1 = mapc[j];
-                }
-                else
-                {
-                    c2 = cls[j];
-                    m2 = mapc[j];
-                }
-            }
-        }
-        if(m1>m2){
-            cout<<test[i]<<"\t--> "<<"dog"<<"\n";
-        }
-        else{
-            cout<<test[i]<<"\t--> "<<"cat"<<"\n";
-        }
+		for(int j=0;j<feature.size();j++){
+		    if(test[i]==feature[j])
+		    {
+			if(cls[j]=="dog")
+			{
+			    c1 = cls[j];
+			    m1 = mapc[j];
+			}
+			else
+			{
+			    c2 = cls[j];
+			    m2 = mapc[j];
+			}
+		    }
+		}
+		if(m1>m2){
+		    cout<<test[i]<<"\t--> "<<"dog"<<"\n";
+		}
+		else{
+		    cout<<test[i]<<"\t--> "<<"cat"<<"\n";
+		}
 	}
 
     return 0;
