@@ -1,0 +1,4 @@
+yes		no	0.428571
+no		no	0.571429
+yes		yes	0
+no		yes	1
