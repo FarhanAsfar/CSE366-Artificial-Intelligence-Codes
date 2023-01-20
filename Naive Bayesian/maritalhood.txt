@@ -1,0 +1,6 @@
+single		no		0.285714
+married		no		0.571429
+divorced		no		0.142857
+single		yes		0.666667
+married		yes		0
+divorced		yes		0.333333
