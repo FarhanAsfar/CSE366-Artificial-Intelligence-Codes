@@ -4,7 +4,7 @@ Each of the topics will have a 'guide' file to give an idea about the problem.
 
 This repository will contain the following topics:
 
-1. A* Search Algorithm
+1. **A* Search Algorithm**
 2. Genetic Algorithm
 3. Bayesian Algorithm
 4. Naive Bayesian Algorithm
