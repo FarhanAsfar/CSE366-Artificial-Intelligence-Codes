@@ -87,7 +87,6 @@ int main() {
 
     printf("%d\n\n", numberofobject) ;
     for(int i = 0 ; i < avalue.size() ; i++){
-
         cout<< avalue[i] << endl ;
     }
 
