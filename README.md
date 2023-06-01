@@ -9,4 +9,5 @@ This repository will contain the following topics-
 3. Bayesian Algorithm.
 4. Naive Bayesian Algorithm.
 5. Neural Network.
+6. 
 
