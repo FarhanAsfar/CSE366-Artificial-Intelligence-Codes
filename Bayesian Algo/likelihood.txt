@@ -1,0 +1,15 @@
+Feature	Class	Likelihood	Classifier
+-------	-----	-----------	----------
+big	dog	0.6875		0.366667
+small	dog	0.25		0.133333
+medium	dog	0.0625		0.0333333
+big	cat	0.285714	0.133333
+small	cat	0.571429	0.266667
+medium	cat	0.142857	0.0666667
+
+
+Prior
+-----
+P(Dog) = 0.533333
+
+P(Cat) = 0.466667
